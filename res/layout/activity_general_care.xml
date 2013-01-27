@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GeneralCare" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="159dp"
+            android:layout_height="90dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="General Care (1)"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="159dp"
+            android:layout_height="90dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:layout_marginLeft="1dp"
+            android:text="General Care (B)"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >        
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/description1"
+                    android:layout_width="159dp"
+                    android:layout_height="320dp"
+                    android:text="TextView"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+        </ScrollView>
+        
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+            		android:id="@+id/description2"
+            		android:layout_width="159dp"
+            		android:layout_height="320dp"
+            		android:text="TextView"
+            		android:textSize="17sp" />
+
+            </LinearLayout>
+        </ScrollView>
+        
+    </LinearLayout>
+
+     <Button
+		android:id="@+id/imageButton11"
+		android:layout_width="100dp"
+		android:layout_height="45dp"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+		android:layout_marginBottom="2dp"
+        android:background="@drawable/button"
+        android:drawablePadding="-40dp"
+        android:text="Main Menu"
+        android:textColor="@color/white" />
+
+</LinearLayout>
