@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.berlinsudwest.util.CustomViewPager
+    	android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/defaultBackground"
+        android:paddingBottom="@dimen/v50dip"          
+          
+    />  
+   
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/v50dip"
+        android:layout_alignParentBottom="true"
+        android:baselineAligned="false"
+        android:background="@drawable/tabbar" >
+
+        <RelativeLayout
+            android:id="@+id/startLayout"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@drawable/tab_bar_btn_selector"              
+        >
+
+            <Button
+                android:id="@+id/startBtn"
+                style="@style/home_activity_button_text_style"
+                android:background="@color/TransparentColor"
+                android:text="Glucose" />
+
+            <ImageView
+                android:contentDescription=""
+                android:id="@+id/startIV"
+                style="@style/home_activity_button_image_view_style"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/impressumLayout"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@drawable/tab_bar_btn_selector"           
+        >
+
+            <Button
+                android:id="@+id/impressumBtn"
+                style="@style/home_activity_button_text_style"
+               android:background="@color/TransparentColor"
+                android:text="" />
+
+            <ImageView
+                android:contentDescription=""
+                android:id="@+id/impressumIV"
+                style="@style/home_activity_button_image_view_style"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/partnerLayout"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@drawable/tab_bar_btn_selector"
+            android:clickable="true" 
+        >
+
+            <ImageView
+                android:contentDescription=""
+                android:id="@+id/partnerIV"
+                style="@style/home_activity_button_image_view_style"
+                 />
+
+            <Button
+                android:id="@+id/partnerBtn"
+                style="@style/home_activity_button_text_style"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/TransparentColor"
+                android:text="" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tourLayout"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:background="@drawable/tab_bar_btn_selector"
+            android:clickable="true" 
+        >
+
+            <Button
+                android:id="@+id/tourBtn"
+                style="@style/home_activity_button_text_style"
+                android:background="@color/TransparentColor"
+                android:text="" 
+                
+            />
+
+            <ImageView
+                android:contentDescription=""
+                android:id="@+id/tourIV"
+                style="@style/home_activity_button_image_view_style"
+                 />
+        </RelativeLayout>
+
+       
+    </LinearLayout>
+
+</RelativeLayout>

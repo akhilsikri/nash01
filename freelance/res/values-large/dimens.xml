@@ -1,0 +1,32 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+
+    
+     <dimen name="v1dip">1.25dip</dimen>
+     <dimen name="v2dip">2.5dip</dimen>
+     <dimen name="v80dip">100dip</dimen>
+     <dimen name="v85dip">106.25dip</dimen>
+     <dimen name="v95dip">118.75dip</dimen>
+     <dimen name="v68dip">85dip</dimen>
+     <dimen name="v50dip">62.5dip</dimen>
+     <dimen name="v40dip">50dip</dimen>
+     <dimen name="v35dip">43.75dip</dimen>
+     <dimen name="v30dip">37.5dip</dimen>
+     <dimen name="v5dip">6.25dip</dimen>
+     <dimen name="v10dip">12.5dip</dimen>
+     <dimen name="v15dip">18.75dip</dimen>
+     <dimen name="v20dip">25dip</dimen>
+     <dimen name="v25dip">31.25dip</dimen>
+     
+     <dimen name="v21sp">23sp</dimen>
+     <dimen name="v20sp">20sp</dimen>
+     <dimen name="v12sp">12sp</dimen>
+     <dimen name="v14sp">14sp</dimen>
+     <dimen name="v15sp">15sp</dimen>
+     <dimen name="v16sp">16sp</dimen>
+     <dimen name="v17sp">17sp</dimen>
+     <dimen name="v18sp">18sp</dimen>
+ </resources>

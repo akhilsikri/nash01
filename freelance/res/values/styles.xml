@@ -1,0 +1,71 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    
+    <style name="Theme.default" parent="android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@drawable/defaultBackground</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+    </style>
+    
+    
+    <style name="titleBar">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/v24sp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_height">@dimen/v50dip</item>
+        <item name="android:background">@drawable/topbar</item>
+        <item name="typeface">fonts/roboto_regular.ttf</item>
+    </style>
+
+    <style name="homeListTextView">
+        <item name="android:textColor">@color/textColorGrey</item>
+        <item name="android:textSize">@dimen/v22sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="typeface">fonts/roboto_regular.ttf</item>
+    </style>
+
+    <style name="contactNameTextView">
+        <item name="android:textColor">@color/textColorGrey</item>
+        <item name="android:textSize">@dimen/v22sp</item>
+       
+        <item name="android:singleLine">true</item>
+        <item name="typeface">fonts/roboto_regular.ttf</item>
+    </style>
+
+    <style name="contactNumberTextView">
+        <item name="android:textColor">@color/textColorGrey</item>
+        <item name="android:textSize">@dimen/v18sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="typeface">fonts/roboto_light.ttf</item>
+    </style>
+	
+    <style name="buttonsStyle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/v20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">@dimen/v5dip</item>
+        <item name="android:layout_marginRight">@dimen/v5dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="typeface">fonts/roboto_regular.ttf</item>
+    </style>
+    
+    <style name="home_activity_button_text_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:paddingBottom">@dimen/v1dip</item>
+        <item name="android:textSize">@dimen/v12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColorGreyLight</item>
+    </style>
+    
+    
+    <style name="home_activity_button_image_view_style">
+        <item name="android:layout_width">@dimen/v40dip</item>
+        <item name="android:layout_height">@dimen/v40dip</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:paddingBottom">@dimen/v10dip</item>
+        
+    </style>
+</resources>

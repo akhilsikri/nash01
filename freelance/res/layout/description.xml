@@ -1,0 +1,33 @@
+
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/defaultBackground"
+    android:padding="@dimen/v10dip"    
+>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+>
+	<com.diabetes.util.UITextView
+        android:id="@+id/descriptionTitleTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/v20sp"
+        android:textColor="@color/whiteColor"
+        android:layout_marginBottom="@dimen/v20dip" 
+    />
+	
+    <com.diabetes.util.UITextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/v18sp"
+        android:textColor="@color/whiteColor" 
+    />
+</LinearLayout>
+</ScrollView>    

@@ -1,0 +1,150 @@
+
+    <resources>
+      
+        <string name="app_name">Diabetes</string>
+    	<string name="hello_world">Hello world!</string>
+    	<string name="menu_settings">Settings</string>
+    	<string name="title_activity_main">MainActivity</string>
+        
+    	<string name="lets_care">Let\'s Care</string>
+    	<string name="chart_reminders">Charts and Reminders</string>
+    	
+    	<string name="general_care">General Care</string>
+    	<string name="eye_Care">Eye Care</string>
+    	<string name="foot_care">Foot Care</string>
+    	<string name="charts">Charts</string>
+    	<string name="reminders">Reminders</string>
+    	
+    	<string name="general_care_tab">General</string>
+    	<string name="eye_care_tab">Eye</string>
+    	<string name="foot_care_tab">Foot</string>
+    	
+    	<string-array name="letscare">
+    		<item ><![CDATA[<p>Diabetes care providers say that 90% of diabetes care is self-care.<br /><br /> Physical movement, healthy eating, self-monitoring and relaxation are far more important than anything the medical profession can do for diabetes.<br /><br /> In this section, we will help you understand the disease and make you aware of the steps you can take to tackle it.</p>]]></item>
+	    	<item><![CDATA[<p><b>What does diabetes do?</b><br /><br /> Diabetes occurs due to inability of the body to produce enough insulin to metabolize glucose. It leads to high blood glucose which in turn leads to multiple complications.</p>]]></item>
+	    	<item><![CDATA[<p><b>Signs of high blood glucose</b><br /><br />The main three signs are: <br /><br /><ul>Passing urine very often</ul><ul>Feeling thirsty again and again</ul><ul>Increased hunger</ul>Other signs that can also happen are Weakness or feeling tired, Loss of weight and blurring of vision</p>]]></item>
+	    	<item><![CDATA[<p><b>What leads to high blood glucose?</b><br /><br /><ul>Missing a dose of diabetic medication, tablets or insulin</ul><ul>Eating more carbohydrates than your body and medication can manage</ul><ul>Being mentally or emotionally stressed</ul></p>]]></item>
+	 		<item><![CDATA[<p><b>What can high blood glucose lead to?</b><br /><br />High levels of blood glucose for extended periods of time can lead to the development of long term complications e.g. kidney, eye and nerves can be damaged<br /><br />If blood glucose level rises dangerously high – it can lead to a serious condition called ketoacidosis which can even cause death</p>]]></item>
+	 		<item><![CDATA[<p><b>What can high blood glucose lead to?</b><br /><br />Diabetes is<br /><br />Leading cause of blindness in working age adults<br /><br />Responsible for 2-fold to 4-fold increase in cardiovascular mortality and stroke<br /><br />Leading cause of nontraumatic lower extremity amputations<br /><br />Leading cause of end-stage renal disease</p>]]></item>
+	    	<item><![CDATA[<p><b>What do we to avoid these complications?</b><br /><br />Physical Activity<br /><br />Healthy Eating<br /><br />Regular Medications<br /><br />Blood Sugar monitoring<br /><br />Other lab tests at fixed intervals<br /><br />Annual or half yearly Clinical Examinations </p>]]></item>
+	    	<item><![CDATA[<p><b>Physical Activity</b><br /><br />Find an activity you enjoy doing and safely increase the amount of time until you reach your goal (Ideal:150 minutes/week spread over at least 3 days)<br /><br />Any physical activity – walking, running, jogging etc. will help lower your blood sugar level and help you feel better</p>]]></item>
+	    	<item><![CDATA[<p><b>Healthy Eating</b><br /><br />Watch those portion sizes!<br /><br />Eat more fruit and vegetables Try to eat regular meals, with some starchy carbohydrate foods at each meal Try to have less saturated fat Use monounsaturated oil Aim for 2-3 portions of fish per week Have more whole grains, lentils, pulses, nuts and seeds Drink alcohol in moderation Experiment with herbs to replace salt Don’t be tempted by diabetic foods / drinks</p>]]></item>
+	 		<item><![CDATA[<p><b>Regular Medications</b><br /><br />Maintain regularity with your medications and don’t miss even a single dose<br /><br />Add your prescription in this app and you can activate the reminder option for the app to remind you of the medicines </p>]]></item>
+	 		<item><![CDATA[<p><b>Blood Sugar Monitoring</b><br /><br />Discuss with your doctor as to how often you should test.<br /><br /> Regular blood glucose monitoring and control is the most effective way to reduce complication arising out of diabetes</p>]]></item>
+	 		<item><![CDATA[<p><b>Other lab tests at fixed intervals</b><br /><br />HbA1c &lt;7% every 3-6 months<br /><br />Annual Testing<br /><br /><ul><li>Fasting Lipid Panel</li><li>Total Cholesterol &lt;200 mg/dL</li><li>Triglycerides &lt;150 mg/dL</li><li>LDL &lt;70 or &lt;100 mg/dL</li><li>HDL ≥40 mg/dL men; ≥50 mg/dL women</li><li>Albumin-to-creatinine ratio &lt;30 mg/g</li><li>Serum creatinine to estimate kidney function (eGFR)</li></ul> </p>]]></item>
+	 		<item><![CDATA[<p><b>Annual or half yearly Clinical Examinations</b><br /><br /><b>Annual Exams:</b><br />Dilated Eye Exam<br />Complete Foot Exam<br />Complete Physical Exam<br /><br /><b>Six Monthly:</b><br />Dental Exam<br /><br /><b>Each Visit:</b><br />Oral Check<br />Foot Check - visual check<br /><br />Blood Pressure &lt;130/80 mmHg Emotional/Sexual Health discussion <br /><br />Tobacco use discussion</p>]]></item>
+	 		 		
+			<item><![CDATA[<p>How can diabetes hurt my eyes?<br /><br />High blood sugar damages the tiny blood vessels in retina that are easy to damage. First, these tiny blood vessels swell and weaken. Some blood vessels then become clogged and do not let enough blood through.</p>]]></item>
+	    	<item><![CDATA[<p>What happens as diabetes retina problems get worse?<br /><br />As diabetes retina problems get worse, new blood vessels grow. These new blood vessels are weak. They break easily and leak blood into the vitreous of your eye. The leaking blood keeps light from reaching the retina.<br /><br />You may see floating spots or almost total darkness. Sometimes the blood will clear out by itself. But you might need surgery to remove it.</p>]]></item>
+	    	<item><![CDATA[<p>Can it become more worse?<br /><br />Yes it definitely can become much worse!<br /><br /> Over the years, the swollen and weak blood vessels can form scar tissue and pull the retina away from the back of the eye.<br /><br /> You may feel as if a curtain has been pulled over part of what you are looking at. A detached retina can cause loss of sight or blindness if you don\'t take care of it right away.</p>]]></item>
+	    	<item><![CDATA[<p>When to Call the Doctor<br /><br />Call your doctor if:<br /><br />You cannot see well in dim light<br />You have blind spots<br />You have double vision (you see 2 things when there is only 1)<br />Your vision is hazy or blurry and you cannot focus<br />You have pain in your eyes<br />You are having headaches<br />You see spots floating in your eyes<br />You cannot see things on the side of your field of vision<br />You see shadows</p>]]></item>
+	    	<item><![CDATA[<p>What can I do about it?<br /><br />Annual examination with doctor even if your eyesight is apparently fine<br /><br />If you already have eye problems, ask your doctor if you should avoid some exercises that can strain the blood vessels in your eyes. These exercises may make eye problems worse:<br /><br />Weight lifting and other exercises that make you strain<br /><br />High-impact exercise, such as football or Hockey<br /><br />Most importantly, keep your blood sugar under control</p>]]></item>
+	    	
+	    	<item><![CDATA[<p>To avoid serious foot problems that could result in losing a toe, foot, or leg, be sure to follow these guidelines.<br /><br />Inspect your feet daily. Check for cuts, blisters, redness, swelling, or nail problems. Use a magnifying hand mirror to look at the bottom of your feet. Call your doctor if you notice anything.</p>]]></item>
+	    	<item><![CDATA[<p>To avoid serious foot problems that could result in losing a toe, foot, or leg, be sure to follow these guidelines.<br /><br />Wash your feet in lukewarm (not hot!) water. Keep your feet clean by washing them daily. But only use lukewarm water—the temperature you’d use on a newborn baby<br /><br />Be gentle when bathing your feet. Wash them using a soft washcloth or sponge. Dry by blotting or patting—and make sure to carefully dry between the toes.</p>]]></item>
+	    	<item><![CDATA[<p>To avoid serious foot problems that could result in losing a toe, foot, or leg, be sure to follow these guidelines.<br /><br />Moisturize your feet—but not between your toes. Use a moisturizer daily to keep dry skin<br /><br />from itching or cracking. But DON’T moisturize between the toes—this could encourage a fungal infection</p>]]></item>
+	    	<item><![CDATA[<p>To avoid serious foot problems that could result in losing a toe, foot, or leg, be sure to follow these guidelines.<br /><br />Cut nails carefully—and straight across. Also, file the edges. Don’t cut them too short, since<br />this could lead to ingrown toe nails.</p>]]></item>
+	    	<item><![CDATA[<p>To avoid serious foot problems that could result in losing a toe, foot, or leg, be sure to follow these guidelines.<br /><br />Never trim corns or calluses. No “bathroom surgery”—let your doctor do the job.</p>]]></item>
+	    	<item><![CDATA[<p>To avoid serious foot problems that could result in losing a toe, foot, or leg, be sure to follow these guidelines.<br /><br />Wear clean, dry socks and change them daily<br />Avoid the wrong type of socks. Avoid tight elastic bands (they reduce circulation)<br />Don’t wear thick or bulky socks (they can fit poorly and irritate the skin)<br /><br />Wear socks to bed. If your feet get cold at night, wear socks. NEVER use a heating pad or hot water bottle</p>]]></item>
+	    	<item><![CDATA[<p>To avoid serious foot problems that could result in losing a toe, foot, or leg, be sure to follow these guidelines.<br /><br />Shake out your shoes and inspect the inside before wearing. Remember, you may not feel a pebble due to lack of sensation—so always, always shake out your shoes before putting them on.</p>]]></item>
+	    	<item><![CDATA[<p>To avoid serious foot problems that could result in losing a toe, foot, or leg, be sure to follow these guidelines.<br /><br />Keep your feet warm and dry. Don’t get your feet wet in snow or rain.<br /><br /> Never walk barefoot. Not even at home! You could step on something and get a scratch or cut.</p>]]></item>
+	    	<item><![CDATA[<p>To avoid serious foot problems that could result in losing a toe, foot, or leg, be sure to follow these guidelines.<br /><br />And finally –<br /><br /> Get periodic foot exams. See your podiatric foot and ankle surgeon on a regular basis for an examination to help prevent the foot complications of diabetes</p>]]></item>
+    	</string-array>
+
+    	<string-array name="letscare_titles">
+    		<item>General Care (1)</item>
+	    	<item>General Care (2)</item>
+	    	<item>General Care (3)</item>
+	    	<item>General Care (4)</item>
+	 		<item>General Care (5)</item>
+	 		<item>General Care (6)</item>
+	    	<item>General Care (7)</item>
+	    	<item>General Care (8)</item>
+	    	<item>General Care (9)</item>
+	 		<item>General Care (10)</item>
+	 		<item>General Care (11)</item>
+	 		<item>General Care (12)</item>
+	 		<item>General Care (13)</item>
+	 		 		
+			<item>Eye Care (1)</item>
+	    	<item>Eye Care (2)</item>
+	    	<item>Eye Care (3)</item>
+	    	<item>Eye Care (4)</item>
+	    	<item>Eye Care (5)</item>
+	    	
+	    	<item>Foot Care (1)</item>
+	    	<item>Foot Care (2)</item>
+	    	<item>Foot Care (3)</item>
+	    	<item>Foot Care (4)</item>
+	    	<item>Foot Care (5)</item>
+	    	<item>Foot Care (6)</item>
+	    	<item>Foot Care (7)</item>
+	    	<item>Foot Care (8)</item>
+	    	<item>Foot Care (9)</item>
+    	</string-array>
+    	
+    		
+ 		<color name="whiteColor">#ffffff</color>
+        <color name="blackColor">#000000</color>
+        
+<!-- ***********************   Colors    ********************************-->
+<!-- transparent Color -->
+    <color name="TransparentColor">@android:color/transparent</color>
+    
+    
+<!-- Black Colors -->
+	<color name="BlackColor">#000000</color>
+	<color name="GrayColor1">#999999</color>
+	<color name="GrayColor2">#888888</color>
+	<color name="group_bar_color">#9A3334</color>
+	<color name="group_bar_color_02">#ed8515</color>
+	    
+<!-- Blue -->
+	<color name="BlueColor1">#0000FF</color>
+	<color name="BlueColor2">#3a3aff</color>
+	<color name="lightBlue">#10B2E6</color>
+	<color name="SkyBlueColor">#16D9D2</color>
+	<color name="blueDark">#0099CC</color>
+	
+<!-- Orange -->    
+	<color name="OrrengeColor">#f15a24</color>
+	
+<!-- Green -->    
+	<color name="GreenColor">#00DE00</color>
+
+<!-- Red -->    
+	<color name="RedColor">#FF4444</color>	    	
+	
+<!-- White -->
+	<color name="WhiteColor">#FFFFFF</color>
+	<color name="WhiteColorAlpha">#FFFFFFFF</color>
+	<color name="WhiteGrayColor1">#B0B1B6</color>
+	<color name="WhiteGrayColor2">#B3B3B3</color>    
+	
+	    
+<!-- Others -->    
+	<color name="ButtonSelectedColor">#00FF00</color>    
+	<color name="ButtonColor">#EE4000</color>      
+	<color name="SideButtonColor">#A1A1A1</color>
+	<color name="error_message">#ffc00000</color>    
+  	<color name="listSelector">#CAE9F8</color>
+    
+	<color name="textColorGrey">#666666</color>
+    <color name="textColorGreyDark">#434343</color>
+    <color name="textColorGreyLight">#999999</color>    
+	    
+<!-- **************************    Drawables   *****************************-->	
+	
+	<drawable name="defaultBackground">@drawable/blue_background</drawable>
+	
+	<drawable name="TransparentDrawable">@android:color/transparent</drawable>
+    <drawable name="GrayDrawable">#888888</drawable>
+    <drawable name="WhiteDrawable">#FFFFFF</drawable>
+    <drawable name="BlackDrawable">#000000</drawable> 
+	 
+	 
+	<drawable name="TranslucentDrawable">#a0000000</drawable>  
+	<drawable name="ListDivider">#16A9C6</drawable>  
+	 
+
+    </resources>

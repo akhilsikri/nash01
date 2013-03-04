@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<dimen name="v1dip">1dip</dimen>
+     <dimen name="v2dip">2dip</dimen>
+     <dimen name="v80dip">80dip</dimen>
+     <dimen name="v85dip">85dip</dimen>
+     <dimen name="v95dip">95dip</dimen>
+     <dimen name="v68dip">68dip</dimen>
+     <dimen name="v50dip">50dip</dimen>
+     <dimen name="v40dip">40dip</dimen>
+     <dimen name="v35dip">35dip</dimen>
+     <dimen name="v30dip">30dip</dimen>
+     <dimen name="v5dip">5dip</dimen>
+     <dimen name="v10dip">10dip</dimen>
+     <dimen name="v15dip">15dip</dimen>
+     <dimen name="v20dip">20dip</dimen>
+     <dimen name="v25dip">25dip</dimen>
+     
+     <dimen name="v21sp">19sp</dimen>
+     <dimen name="v20sp">18sp</dimen>
+     <dimen name="v12sp">12sp</dimen>
+     <dimen name="v14sp">12sp</dimen>
+     <dimen name="v15sp">13sp</dimen>
+     <dimen name="v16sp">14sp</dimen>
+     <dimen name="v17sp">15sp</dimen>
+     <dimen name="v18sp">16sp</dimen>
+</resources>

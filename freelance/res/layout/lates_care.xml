@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/defaultBackground"
+    android:orientation="vertical" 
+>
+	<com.diabetes.util.CustomViewPager
+    	android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/defaultBackground"            
+        android:paddingTop="@dimen/v50dip"
+    />
+	
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+     	<com.diabetes.util.UITextView
+		        style="@style/titleBar"
+		        android:id="@+id/textView1"
+		        android:layout_width="fill_parent"
+		        android:textSize="@dimen/v24sp"
+		        android:gravity="center"
+		        android:text="@string/lets_care" 
+		        android:layout_centerInParent="true"
+		/>
+	    <LinearLayout 
+    	    android:layout_width="wrap_content"
+   			android:layout_height="@dimen/v50dip"
+   			android:layout_gravity="center_vertical|right"
+   			android:layout_marginRight="@dimen/v10dip"
+   			android:layout_alignParentLeft="true"
+   			android:gravity="center_vertical"
+    	>
+    	
+	    	<com.diabetes.util.UIButton
+	      		android:id="@+id/latesCareBackBtn"
+	    	    style="@style/buttonsStyle"
+	    	    android:layout_width="wrap_content"
+	   			android:layout_height="wrap_content"
+	   			android:background="@drawable/backbtn"
+	   			android:text="Home"	   			
+	   			android:textStyle="bold"
+	   		/>	   		
+	    	
+	    </LinearLayout>	
+    </RelativeLayout>
+
+    <com.diabetes.util.UIButton
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/next" />
+    
+    <com.diabetes.util.UIButton
+        android:id="@+id/previousButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dip"
+        android:layout_marginLeft="5dip"
+        android:background="@drawable/back" />
+    
+</RelativeLayout>	
