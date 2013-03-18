@@ -10,6 +10,15 @@ package com.example.smokefree;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int black=0x7f040001;
+        public static final int blue=0x7f040004;
+        public static final int green=0x7f040005;
+        public static final int opaque_red=0x7f040002;
+        public static final int orange=0x7f040006;
+        public static final int translucent_red=0x7f040003;
+        public static final int white=0x7f040000;
+    }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
 
@@ -17,29 +26,47 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
+        public static final int dp16=0x7f050002;
+        public static final int dp32=0x7f050003;
+        public static final int dp64=0x7f050004;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int stop=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static final int action_settings=0x7f090009;
+        public static final int cigarette1=0x7f090000;
+        public static final int cigarette2=0x7f090001;
+        public static final int cigarette3=0x7f090002;
+        public static final int cigarette4=0x7f090003;
+        public static final int cigarette5=0x7f090004;
+        public static final int cigarette6=0x7f090005;
+        public static final int settings=0x7f090008;
+        public static final int statistics=0x7f090007;
+        public static final int stop_craving_button=0x7f090006;
     }
     public static final class layout {
         public static final int home_page=0x7f030000;
         public static final int showchart=0x7f030001;
     }
     public static final class menu {
-        public static final int home_page=0x7f070000;
-        public static final int show_chart=0x7f070001;
+        public static final int home_page=0x7f080000;
+        public static final int show_chart=0x7f080001;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
-        public static final int app_name=0x7f050000;
-        public static final int graph=0x7f050004;
-        public static final int hello_world=0x7f050002;
-        public static final int title_activity_show_chart=0x7f050003;
+        public static final int action_settings=0x7f060003;
+        public static final int app_name=0x7f060002;
+        public static final int craving=0x7f060007;
+        public static final int duration=0x7f060006;
+        public static final int graph=0x7f060001;
+        public static final int hello_world=0x7f060004;
+        public static final int instruction=0x7f060005;
+        public static final int settings=0x7f060008;
+        public static final int statistics=0x7f060009;
+        public static final int title_activity_show_chart=0x7f060000;
     }
     public static final class style {
         /** 
@@ -63,10 +90,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }
