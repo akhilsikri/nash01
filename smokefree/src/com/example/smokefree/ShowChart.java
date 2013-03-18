@@ -1,25 +1,28 @@
 package com.example.smokefree;
 
+import com.example.smokefree.BarGraph.Period;
+
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.widget.RelativeLayout;
 
-public class HomePage extends Activity {
+public class ShowChart extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.home_page);
+		setContentView(R.layout.showchart);
 		
-		Intent showChartIntent = new Intent(this, ShowChart.class);
-    	startActivity(showChartIntent);
+		RelativeLayout rL = (RelativeLayout) findViewById(R.string.graph);
+		BarGraph graph = new BarGraph();
+		rL.addView(graph.getView(this, Period.DAILY));
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.home_page, menu);
+		getMenuInflater().inflate(R.menu.show_chart, menu);
 		return true;
 	}
 
