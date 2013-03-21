@@ -125,6 +125,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:onClick="showSettings"
             android:text="@string/settings"
             android:textSize="@dimen/dp32" />
         

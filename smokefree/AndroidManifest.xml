@@ -26,6 +26,12 @@
             android:name="com.example.smokefree.ShowChart"
             android:label="@string/title_activity_show_chart" >
         </activity>
+        <activity android:name="com.example.smokefree.HealthTips" >
+        </activity>
+        <activity
+            android:name="com.example.smokefree.HealthTipsByTime"
+            android:label="@string/title_activity_health_tips_by_time" >
+        </activity>
     </application>
 
 </manifest>

@@ -26,4 +26,8 @@ public class HomePage extends Activity {
     	startActivity(showChartIntent);
 	}
 
+	public void showSettings(View view){
+		Intent showHealthTips = new Intent(this, HealthTips.class);
+		startActivity(showHealthTips);
+	}
 }
